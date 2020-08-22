@@ -1,0 +1,160 @@
+/*
+Theme Name: Alpha
+Theme URI: https://wordpress.org/themes/alpha/
+Author: Freelancer Mizan
+Author URI: https://www.freelancer-mizan.com/
+Description: This is the first theme made by freelancer mizan.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpha
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+
+img{
+    width: 100%;
+}
+
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+    font-family: Arial;
+    margin:auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p{
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post:last-child .row:nth-child(2){
+    border-bottom:none;
+}
+
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color:#ccc;
+}
+
+.tags li{
+    color: #3D9970;
+}
+
+
+
+
+.page-header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:30px;
+    padding:170px 0px;
+    background-image: url(http://demo.lwhh.com/wp-content/uploads/2018/05/pexels-photo-301929-1024x683.jpeg);
+}
+
+.page-header a h1, .page a h1, .home a h1{
+    color: #222;
+    text-decoration: none;
+}
+.header-logo{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+.header-logo img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.error-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashicons{
+    font-size: 60px;
+}
+
+/* Authorsection */
+.authorsection{
+    margin-bottom: 30px;
+}
+.authorimage img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#wp-calendar a{
+    font-weight: bold;
+    color: red;
+}
+
+
+/* Pagination styles */
+.nav-links{
+    display: block;
+    margin: 0 auto;
+}
+.nav-links .page-numbers{
+    text-decoration: none;
+    color: #000;
+    padding: 2px 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.nav-links .current{
+    color: #fff;
+    background-color: black;
+}
+
+.nav-links .page-numbers:first-child, .nav-links .page-numbers:last-child{
+    text-decoration: none;
+    border: none;
+}
+/* End of Pagination styles */
+
+/* Author section style */
+
+.testimonials img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.search-highlight{
+    font-weight: bold;
+    background-color: #3D9970;
+    color: #fff;
+}

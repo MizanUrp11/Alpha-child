@@ -1,0 +1,19 @@
+/*
+Theme Name: Alpha Child
+Template: alpha
+Theme URI: https://wordpress.org/themes/alpha/
+Author: Freelancer Mizan
+Author URI: https://www.freelancer-mizan.com/
+Description: This is the first theme made by freelancer mizan.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alphaChild
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+h1.heading{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #000;
+}
